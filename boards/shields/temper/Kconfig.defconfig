@@ -1,7 +1,7 @@
 if SHIELD_TEMPER_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "temper"
+    default "KacpersTemper"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -13,9 +13,13 @@ if SHIELD_TEMPER_LEFT || SHIELD_TEMPER_RIGHT
 config ZMK_SPLIT
     default y
 
-
-
 config ZMK_POINTING
+    default y
+
+config ZMK_SLEEP
+    default y
+
+config BT_CTLR_TX_PWR_PLUS_8
     default y
     
 endif
