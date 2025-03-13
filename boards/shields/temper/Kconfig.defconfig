@@ -20,7 +20,7 @@ config ZMK_SLEEP
     default y
 
 config BT_CTLR_TX_PWR
-    default PLUS_8 
+    default 8 
 
 config ZMK_IDLE_SLEEP_TIMEOUT
     default 1800000
