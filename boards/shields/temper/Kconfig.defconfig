@@ -19,8 +19,8 @@ config ZMK_POINTING
 config ZMK_SLEEP
     default y
 
-config BT_CTLR_TX_PWR_PLUS_8
-    default y
+config BT_CTLR_TX_PWR
+    default PLUS_8 
 
 config ZMK_IDLE_SLEEP_TIMEOUT
     default 1800000
