@@ -40,6 +40,11 @@
             key-positions = <26 27>;
             bindings = <&kp KP_SLASH>;
         };
+        combo_grave {
+            timeout-ms = <50>;
+            key-positions = <26 27 28>;
+            bindings = <&kp GRAVE>;
+        };
         combo_apos {
             timeout-ms = <50>;
             key-positions = <1 2 3>;
